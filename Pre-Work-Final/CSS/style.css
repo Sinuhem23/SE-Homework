@@ -1,0 +1,140 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: lightcoral;
+}
+a:hover {
+  color: darkred;
+}
+
+h2 {
+  text-decoration: underline;
+}
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+li {
+  display: inline;
+}
+form {
+  padding: 15px;
+  background-color: lightcoral;
+  font-style: italic;
+  border-style: solid;
+  font-weight: 900px;
+  color: whitesmoke;
+}
+input:hover {
+  background-color: lightgray;
+}
+input[type='button'] {
+  color: steelblue;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+input[type='button']:hover {
+  background-color: steelblue;
+  color: whitesmoke;
+}
+
+/* Nav //////////////////////////////////////// */
+
+nav {
+  border-bottom: solid lightgray 3px;
+  padding: 20px 0 10px 0;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 3;
+  font-weight: bold;
+  width: 100%;
+}
+.nav_Link_size {
+  font-size: 20px;
+}
+.logo {
+  padding-right: 75%;
+  width: 30px;
+  height: 30px;
+}
+.logo:hover {
+  opacity: 50%;
+}
+
+/* End of Nav /////////////////////////////////// */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: gray;
+}
+.landing_Image {
+  width: 100%;
+  height: auto;
+}
+.home_Text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-top: 20%;
+}
+#home_form {
+  margin: 60px 20%;
+}
+
+/* Footer ////////////////////////////*/
+
+.footer_Container {
+  background-color: #303030;
+  width: 100%;
+  padding-bottom: 20px;
+  height: auto;
+  position: absolute;
+}
+
+.footer_Logos {
+  margin-top: 8%;
+  width: 5%;
+  height: auto;
+  padding: 0 30px;
+}
+.footer_Logos:hover {
+  width: 7%;
+  height: auto;
+}
+.footer_Links {
+  margin: 0 900px 20px 0;
+}
+
+.top_Button {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+.top_Button:hover {
+  background-color: steelblue;
+}
+
+/*End of Footer //////////////////////////*/

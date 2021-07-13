@@ -1,0 +1,184 @@
+body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: lightcoral;
+}
+a:hover {
+  color: darkred;
+}
+
+h2 {
+  text-decoration: underline;
+}
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+li {
+  display: inline;
+}
+button {
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: steelblue;
+}
+
+span {
+  color: steelblue;
+  font-size: 30px;
+}
+
+/* Nav //////////////////////////////////////// */
+
+nav {
+  border-bottom: solid lightgray 3px;
+  padding: 20px 0 10px 0;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 3;
+  font-weight: bold;
+  width: 100%;
+}
+.nav_Link_size {
+  font-size: 20px;
+}
+.logo {
+  padding-right: 75%;
+  width: 30px;
+  height: 30px;
+}
+.logo:hover {
+  opacity: 50%;
+}
+
+/* End of Nav /////////////////////////////////// */
+
+.container1 {
+  position: relative;
+  text-align: center;
+}
+.inner_Container {
+  padding-bottom: 35px;
+
+  border-bottom: solid lightgray 1px;
+}
+
+.alike_Image {
+  margin: 35px 0 10px 50%;
+  width: 45%;
+  max-height: 600px;
+}
+.story_Text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-top: 18%;
+  margin-left: 12%;
+  font-size: 30px;
+}
+.story_Text2 {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-top: 23%;
+  margin-left: 6%;
+  margin-right: 58%;
+}
+.favorite_Things_Container {
+  background-color: #e8e8e8;
+}
+
+.favorite_Things {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10%;
+}
+.favorite_List {
+  padding: 50px 0 0 0;
+  word-spacing: 5em;
+}
+.google_Search {
+  text-align: center;
+  border-bottom: solid lightgray 1px;
+  margin-top: 5%;
+  padding-bottom: 10%;
+}
+
+/*Youtube Section //////////////////////*/
+
+.youtube_Container {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.youtube_Vid {
+  width: 75%;
+  height: 500px;
+}
+
+/*End of Youtube Section /////////////////////*/
+
+/* Footer ///////////////////////////*/
+
+.footer_Container {
+  background-color: #303030;
+  width: 100%;
+  padding-bottom: 20px;
+  height: auto;
+  position: absolute;
+}
+
+.footer_Logos {
+  margin-top: 8%;
+  width: 5%;
+  height: auto;
+  padding: 0 30px;
+}
+
+.footer_Logos:hover {
+  width: 7%;
+  height: auto;
+}
+.footer_Links {
+  margin: 0 900px 20px 0;
+}
+
+.top_Button {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  background-color: lightblue;
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+.top_Button:hover {
+  background-color: steelblue;
+}
+
+/*End of Footer ////////////////////////*/
