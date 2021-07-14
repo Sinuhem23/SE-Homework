@@ -29,7 +29,7 @@ li {
 }
 form {
   padding: 15px;
-  background-color: lightcoral;
+  background-color: lightblue;
   font-style: italic;
   border-style: solid;
   font-weight: 900px;
@@ -49,6 +49,10 @@ input[type='button'] {
 input[type='button']:hover {
   background-color: steelblue;
   color: whitesmoke;
+}
+span {
+  color: lightcoral;
+  font-size: 30px;
 }
 
 /* Nav //////////////////////////////////////// */
@@ -92,7 +96,15 @@ nav {
   margin-top: 20%;
 }
 #home_form {
-  margin: 60px 20%;
+  margin: 8% 20%;
+}
+.ny_youtube_container {
+  background-color: white;
+  padding: 5% 0;
+}
+.ny_Text {
+  margin: 0 20%;
+  position: relative;
 }
 
 /* Footer ////////////////////////////*/
