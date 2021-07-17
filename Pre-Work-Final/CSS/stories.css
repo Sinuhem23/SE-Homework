@@ -71,6 +71,8 @@ nav {
 
 /* End of Nav /////////////////////////////////// */
 
+/* Landing Stories Page ///////////// */
+
 .container1 {
   position: relative;
   text-align: center;
@@ -102,27 +104,50 @@ nav {
   margin-left: 6%;
   margin-right: 58%;
 }
+
+/* End of Stories Landing Page //////////// */
+
+/* Favorite Things List //////////////// */
 .favorite_Things_Container {
-  background-color: #e8e8e8;
+  background-color: white;
+  background: url('../images/favorite_things.jpeg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
 }
 
 .favorite_Things {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   margin: 0;
   padding-top: 10%;
+  color: white;
 }
 .favorite_List {
   padding: 50px 0 0 0;
   word-spacing: 5em;
 }
+.favorite_Link_Colors {
+  color: rgb(255, 238, 0);
+  font-weight: bold;
+}
+.favorite_Link_Colors:hover {
+  color: orange;
+}
+
+/* End of Favorite Things List //////////// */
+
+/* Google Section /////////////// */
 .google_Search {
   text-align: center;
-  border-bottom: solid lightgray 1px;
-  margin-top: 5%;
+  /* border-bottom: solid lightgray 1px; */
+  margin-top: 3%;
+  color: white;
+  padding-right: 10px;
   padding-bottom: 10%;
 }
+/* End of Google Seciton ///////////////// */
 
 /*Youtube Section //////////////////////*/
 
