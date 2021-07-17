@@ -27,29 +27,7 @@ ul {
 li {
   display: inline;
 }
-form {
-  padding: 15px;
-  background-color: lightblue;
-  font-style: italic;
-  border-style: solid;
-  font-weight: 900px;
-  color: whitesmoke;
-}
-input:hover {
-  background-color: lightgray;
-}
-input[type='button'] {
-  color: steelblue;
-  margin-top: 10px;
-  background-color: whitesmoke;
-  padding: 10px;
-  font-weight: bold;
-  border-radius: 15px;
-}
-input[type='button']:hover {
-  background-color: steelblue;
-  color: whitesmoke;
-}
+
 span {
   color: lightcoral;
   font-size: 30px;
@@ -78,7 +56,9 @@ nav {
   opacity: 50%;
 }
 
-/* End of Nav /////////////////////////////////// */
+/* End of Nav ///////////////////////////////// */
+
+/* Landing Page Section ////////////////////// */
 
 .container {
   position: relative;
@@ -95,9 +75,53 @@ nav {
   left: 80px;
   margin-top: 20%;
 }
+
+/* End of Landing Page Section //////////////// */
+
+/* About You Form //////////////////////// */
+form {
+  padding: 15px;
+  background-color: lightblue;
+  font-style: italic;
+  font-weight: 900px;
+  color: whitesmoke;
+}
+
+input:hover {
+  background-color: steelblue;
+}
+input[type='button'] {
+  color: steelblue;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 15px;
+}
+input[type='button']:hover {
+  background-color: steelblue;
+  color: whitesmoke;
+}
 #home_form {
   margin: 8% 20%;
+  background-image: url('../images/form_Background.jpeg');
+  color: black;
+  font-weight: bold;
+  background-repeat: none;
+  background-size: cover;
 }
+.inner_About_You_Form {
+  margin: 0 25%;
+  padding: 10px 0;
+  background-color: lightgrey;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+
+/* End of About You Form /////////////////// */
+
+/* New York Youtube Section ////////////////*/
+
 .ny_youtube_container {
   background-color: white;
   padding: 5% 0;
@@ -106,6 +130,8 @@ nav {
   margin: 0 20%;
   position: relative;
 }
+
+/* End of NY Youtube Section ///////////////// */
 
 /* Footer ////////////////////////////*/
 
