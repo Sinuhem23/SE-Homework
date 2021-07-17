@@ -134,6 +134,7 @@ nav {
 }
 .favorite_Link_Colors:hover {
   color: orange;
+  font-size: 25px;
 }
 
 /* End of Favorite Things List //////////// */
