@@ -4,10 +4,10 @@ body {
   padding: 0;
 }
 a {
-  color: lightcoral;
+  color: steelblue;
 }
 a:hover {
-  color: darkred;
+  color: lightsteelblue;
 }
 
 h2 {
@@ -49,9 +49,8 @@ span {
 /* Nav //////////////////////////////////////// */
 
 nav {
-  border-bottom: solid lightgray 3px;
   padding: 20px 0 10px 0;
-  background-color: lightgray;
+  background-image: linear-gradient(to right, lightgray, #303030);
   text-align: center;
   line-height: 3;
   font-weight: bold;
@@ -59,6 +58,7 @@ nav {
 }
 .nav_Link_size {
   font-size: 20px;
+  padding: 0 10px;
 }
 .logo {
   padding-right: 75%;
@@ -69,7 +69,7 @@ nav {
   opacity: 50%;
 }
 
-/* End of Nav /////////////////////////////////// */
+/* End of Nav ///////////////////////////////// */
 
 /* Landing Stories Page ///////////// */
 
@@ -113,7 +113,8 @@ nav {
   background: url('../images/favorite_things.jpeg');
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 790px;
+  max-height: 800px;
 }
 
 .favorite_Things {
@@ -125,7 +126,7 @@ nav {
   color: white;
 }
 .favorite_List {
-  padding: 50px 0 0 0;
+  padding: 30px 0 0 0;
   word-spacing: 5em;
 }
 .favorite_Link_Colors {
@@ -142,8 +143,7 @@ nav {
 /* Google Section /////////////// */
 .google_Search {
   text-align: center;
-  /* border-bottom: solid lightgray 1px; */
-  margin-top: 3%;
+  margin-top: 2%;
   color: white;
   padding-right: 10px;
   padding-bottom: 10%;
@@ -154,8 +154,8 @@ nav {
 
 .youtube_Container {
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  padding: 10% 0;
+  background-color: rgb(219, 219, 219);
 }
 .youtube_Vid {
   width: 75%;
