@@ -211,3 +211,39 @@ nav {
 }
 
 /*End of Footer ////////////////////////*/
+
+/* Media Screen /////////////// */
+
+@media screen and (min-width: 1500px) {
+  /* Footer Adjustments //////////// */
+  .footer_Logos {
+    margin-top: 8%;
+    width: 4%;
+    height: auto;
+    padding: 0 30px;
+  }
+
+  .footer_Logos:hover {
+    width: 6%;
+    height: auto;
+  }
+  .footer_Links {
+    margin: 0 70% 20px 0;
+  }
+  .top_Button {
+    position: absolute;
+    right: 6%;
+  }
+  /* End of Footer Adjustments //////////// */
+
+  .story_Text2 {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 65%;
+  }
+}
+
+/* End of Media Screen /////////////// */
